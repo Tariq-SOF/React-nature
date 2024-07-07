@@ -9,7 +9,7 @@ function Homepage() {
         <div className='flex flex-col items-center '>
         <h1 className='text-2xl font-bold text-slate-800 mt-5'>Welcome to our website</h1>
         <h1 className='text-2xl  font-bold text-slate-800 mt-1 text-center'>which takes you on an exciting journey through<br/>various types of terrain!</h1>
-    </div>
+    </div>//
         <div>
             <div className='w-[189vh] h-[30vh] flex flex-row justify-center items-end gap-16 containertow ease-in duration-300  hover:bg-gray-700 hover:bg-opacity-50 rounded-t-[45%] shadow-2xl border-none '>
                 <div className='flex flex-col items-center m-2'>
