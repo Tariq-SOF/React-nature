@@ -26,7 +26,7 @@ function App() {
 <Route path="/Desertss" element={<Deserts/>}/>
 <Route path="/Plainss" element={<Plains/>}/>
 <Route path="/Forestss" element={<Forests/>}/>
-<Route path="*" element={<errorPage/>}/>
+<Route path="/*" element={<errorPage/>}/>
 
     </Routes>
 
