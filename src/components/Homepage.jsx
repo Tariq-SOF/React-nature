@@ -20,7 +20,7 @@ function Homepage() {
                   <p className=' text-xl text-gray-400'>Mountains</p>
                 </div>
                 <div className='flex flex-col items-center m-2'>
-                 <Link to={"/Seass"}><div className='w-24 h-24 bg-slate-300 rounded-full shadow-2xl mb-10 cursor-pointer bg-[url("https://images.pexels.com/photos/1544376/pexels-photo-1544376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")] bg-cover bg-center ease-in duration-300 hover:mb-12' ></div></Link>
+                 <Link to={"/Seas"}><div className='w-24 h-24 bg-slate-300 rounded-full shadow-2xl mb-10 cursor-pointer bg-[url("https://images.pexels.com/photos/1544376/pexels-photo-1544376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")] bg-cover bg-center ease-in duration-300 hover:mb-12' ></div></Link>
                   <p className='text-xl  text-gray-400'>Seas</p>
                 </div>
                 <div className='flex flex-col items-center m-2'>
