@@ -19,10 +19,8 @@ function App() {
 
      <Routes>
 
-<Route path="/" element={<SignIn/>}/>
-<Route path="/SignInn" element={<SignIn/>}/>
-<Route path="/SignUpp" element={<SignUp/>}/>
-<Route path="/Homepagee" element={<Homepage/>}/>
+
+<Route path="/" element={<Homepage/>}/>
 <Route path="/Mountainss" element={<Mountains/>}/>
 <Route path="/Seass" element={<Seas/>}/>
 <Route path="/Desertss" element={<Deserts/>}/>
