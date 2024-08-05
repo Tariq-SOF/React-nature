@@ -1,26 +1,19 @@
 import React from 'react'
-import Navpar from './Navpar'
 import { Link } from 'react-router-dom'
-
 function Homepage() {
-  return (
-    <div class="w-full h-[96vh] bg-[url('https://images.pexels.com/photos/15894610/pexels-photo-15894610/free-photo-of-landscape-with-dry-grass-on-black-soil-terrain-and-rocky-mountain-in-clouds.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]  bg-cover bg-center flex flex-col justify-between items-center border-none sm:h-screen">
-       <Navpar/>
-
+  return (<>
+ <div className="w-full h-screen bg-[url('https://images.pexels.com/photos/15894610/pexels-photo-15894610/free-photo-of-landscape-with-dry-grass-on-black-soil-terrain-and-rocky-mountain-in-clouds.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')]  bg-cover bg-center flex flex-col justify-between items-center  ">
         <div className='flex flex-col items-center '>
         <h1 className='text-2xl font-bold text-slate-800 mt-5'>Welcome to our website</h1>
         <h1 className='text-2xl  font-bold text-slate-800 mt-1 text-center'>which takes you on an exciting journey through<br/>various types of terrain!</h1>
-    </div>//
-        <div>
-            <div className='w-[189vh] h-[30vh] flex flex-row justify-center items-end gap-16 containertow ease-in duration-300  hover:bg-gray-700 hover:bg-opacity-50 rounded-t-[45%] shadow-2xl border-none '>
+    </div>
+            <div className='w-full h-[30vh] flex flex-row justify-center items-end gap-16 containertow ease-in duration-300  hover:bg-gray-700 hover:bg-opacity-50 rounded-t-[45%] shadow-2xl border-none '>
                 <div className='flex flex-col items-center m-2'>
-                
-                
                 <Link to={"/Mountainss"}><div className='w-24 h-24 bg-slate-300 rounded-full shadow-2xl mb-5 cursor-pointer bg-[url("https://images.pexels.com/photos/10801300/pexels-photo-10801300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")] bg-cover bg-center ease-in duration-300 hover:mb-7'></div></Link>
                   <p className=' text-xl text-gray-400'>Mountains</p>
                 </div>
                 <div className='flex flex-col items-center m-2'>
-                 <Link to={"/Seass"}><div className='w-24 h-24 bg-slate-300 rounded-full shadow-2xl mb-10 cursor-pointer bg-[url("https://images.pexels.com/photos/1544376/pexels-photo-1544376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")] bg-cover bg-center ease-in duration-300 hover:mb-12' ></div></Link>
+                 <Link to="/Seass"><div className='w-24 h-24 bg-slate-300 rounded-full shadow-2xl mb-10 cursor-pointer bg-[url("https://images.pexels.com/photos/1544376/pexels-photo-1544376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")] bg-cover bg-center ease-in duration-300 hover:mb-12' ></div></Link>
                   <p className='text-xl  text-gray-400'>Seas</p>
                 </div>
                 <div className='flex flex-col items-center m-2'>
@@ -36,9 +29,10 @@ function Homepage() {
                   <p className=' text-xl text-gray-400'>Forests</p>
                 </div>
               </div>
-        </div>
     </div>
-  )
+
+  
+  </>)
 }
 
 export default Homepage
